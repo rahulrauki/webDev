@@ -1,0 +1,29 @@
+body{
+  background-color: rgba(0,0,100,0.3);
+}
+.main{
+  margin:0 auto;
+  margin-top: 13%;
+  background-color: pink;
+  width:30%;
+  text-align: center;
+  font-family: fantasy;
+  border-radius: 5px;
+}
+img{
+  max-width: 96%;
+  margin-top: 2%;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.button{
+  margin: 2%;
+  padding: 3%;
+  border-radius: 5px;
+}
+#id{
+  margin-bottom: 3%;
+}
+#caption{
+  max-width:90%; 
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Verification</title>
+  <link rel="stylesheet" href="css/verify.css">
+  <script defer src="js/verify.js"></script>
+</head>
+
+<body>
+  <div class="main">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQe6x_Ddwr2-TEkJLCukQhcQFe5gBSprdy_Aw&usqp=CAU" alt="recaptcha"><br>
+    <form  id="form" action="contact.html" method="get" onsubmit="return validate()" >
+      <label for="caption">Enter the captcha (lowercase): </label><input type="text" id="caption" name="caption" value=""><br><br>
+      <label for="checkbox">Check if not ROBOT:</label><input type="checkbox" id="check" name="checkbox" value=""><br><br>
+      <button class="button" type="submit" name="button">VERIFY</button>
+    </form>
+    <p id="final"></p>
+  </div>
+
+
+</body>
+
+</html>
